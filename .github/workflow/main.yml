@@ -2,7 +2,7 @@ name: Build and Release APK
 on: push
 jobs:
     hosting:
-      name: Deploy Website into firebase
+      name: Deploy firebase Website
       runs-on: ubuntu-latest
       steps:
         # Checkout Repository
